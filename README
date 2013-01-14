@@ -1,0 +1,30 @@
+VerbetesREST version 1
+======================
+
+	Verbetes project aims to develop an automatic approach to extract micro-biographies of entities (people, organizations, events, etc.) from text available on the web, mainly news articles, supported on well known open resources like Wikipedia and Freebase. 
+	
+	VerbetesREST is a RESTful interface for Verbetes data resources. Current version is publicly available online at SAPO services catalog (https://store.services.sapo.pt/en/Catalog/other/free-api-information-retrieval-verbetes). This version comprehends more than 100,000 names of public personalities mentioned on portuguese news articles and their jobs/positions. Successful online applications using Verbetes includes "Mundo Visto Daqui interativo" (http://voxx.sapo.pt/mvdi) and Voxx (http://voxx.sapo.pt).
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  DBI
+  JSON
+  XML::Simple
+  Encode
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2012 by Jorge Teixeira
+Copyright (C) 2012 by Sapo Labs / Universidade do Porto
